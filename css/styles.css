@@ -108,6 +108,7 @@ p{
     text-align: justify;
     text-wrap: balance;
     text-align: center;
+    padding: 1rem;
     font-size: 1.6rem;
     color: #BF7E04;
 }
@@ -316,7 +317,10 @@ a{
 
 /* +++++++++++++++Consejos+++++++++++++++++ */
 
-
+.lista {
+    padding: 2rem;
+    color: #8C6645;
+}
 /* agregarle color al fondo solo en 1 seccion (Consejos) */
 .fondoconsejos {
     background-color:#F2C49B;
@@ -369,6 +373,11 @@ form div{
     margin-inline: 15px;
     width: 30px;
     height: 30px;
+}
+
+/*  rrss */
+.icono2{
+    color: black;
 }
 
 /* mobile */
