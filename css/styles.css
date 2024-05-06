@@ -21,7 +21,7 @@ body header img{
 }
 @media screen and (min-width: 768px) {
     body header img{
-        width: 10%;
+        width: 25%;
     }
 }
 body{
@@ -33,13 +33,28 @@ header{
 }
 
 
-/* @media screen and (min-width: 768px) {
-    header nav ul {
+/* nav de boostrap editado  */
+@media screen and (min-width: 1024px) {
+.nav-item{
+    font-family:"Poppins", sans-serif;
+    color: #8C6645;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-style: normal;
+}
+/* Pseudoclase hover */
+.nav-item a:hover{
+    color:#F2C49B;
+}
+}
+    /* header nav ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
-    }
+        align-items: center; */
+    /* }
     nav ul li{
         color: #8C6645;
         font-size: 2rem;
@@ -50,8 +65,7 @@ header{
         list-style-type:none;
         margin: 1.5rem;
         padding: 1.5rem;
-    }
-}
+    } */
 header nav ul{
     text-align: center;
 }
@@ -155,6 +169,7 @@ a{
     margin:  0 auto;
     padding: 1rem;
 } */
+
 @media screen and(min-width: 320px) and (max-width: 766px) {
     .galeria{
         grid-template-columns: 1fr;
@@ -200,7 +215,7 @@ a{
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .galeria{
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-rows: repeat(5, 1fr);
     }
     .galeria-img-uno{
         grid-column: 1/3;
@@ -239,6 +254,7 @@ a{
         grid-row: 3/5;
     }
 }
+/*  psuedo clase nth-child */
 @media screen and (min-width: 1024px) {
     .galeria{
         grid-template-columns: repeat(6, 1fr);
