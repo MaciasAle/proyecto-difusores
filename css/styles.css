@@ -38,7 +38,7 @@ header{
 .nav-item{
     font-family:"Poppins", sans-serif;
     color: #8C6645;
-    font-weight: 500;
+    font-weight: 450;
     font-size: 1rem;
     margin: 1rem;
     padding: 1rem;
@@ -47,25 +47,10 @@ header{
 /* Pseudoclase hover */
 .nav-item a:hover{
     color:#F2C49B;
+    font-weight: bold;
 }
 }
-    /* header nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center; */
-    /* }
-    nav ul li{
-        color: #8C6645;
-        font-size: 2rem;
-        font-family:"Poppins", sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        text-align: justify;
-        list-style-type:none;
-        margin: 1.5rem;
-        padding: 1.5rem;
-    } */
+
 header nav ul{
     text-align: center;
 }
@@ -150,11 +135,6 @@ a{
     object-fit: cover;
     border-radius: 1%;
 }
-
-/* @media screen and (min-width: 768px) { */
-    /* .nosotros img{
-        max-width: 30%;
-    } */
 
 /* .img-nos{
     display: block;
