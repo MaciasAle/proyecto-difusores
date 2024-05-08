@@ -93,7 +93,8 @@ h3{
     text-align: center;
     font-weight: 700;
     font-family:"Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin: 2rem;
 }
 h4{
     font-size: 1.5rem ;
@@ -337,10 +338,39 @@ a{
 
 /* +++++++++++++++Consejos+++++++++++++++++ */
 
-.lista {
+/* .lista {
     padding: 2rem;
     color: #8C6645;
+} */
+
+/*++++++++++ aplicar BEM en consejos+++++++++ */
+
+.section{
+    padding: 2rem;
+    margin: 2 auto;
 }
+.section__consejo{
+    border: solid blue;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.section__consejo--lista{
+    border: solid red;
+    padding: 2rem;
+    color: #8C6645;
+    font-weight: 600;
+    font-family:"Roboto", sans-serif;
+    font-size: 1.5rem;
+
+}
+/* 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+*/
 /* agregarle color al fondo solo en 1 seccion (Consejos) */
 .fondoconsejos {
     background-color:#F2C49B;
