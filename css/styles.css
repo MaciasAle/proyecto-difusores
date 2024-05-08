@@ -305,7 +305,7 @@ a{
 /* ++++++++++++++++++++++PRODUCTOS+++++++++++++++++ */
 .souvenirs{
     display: block;
-    border: solid red;
+    /* border: solid red; */
     width: 50%;
     margin: 0 auto;
 }
@@ -318,19 +318,19 @@ a{
 }
 .regalos{
     display: block;
-    border: solid red;
+    /* border: solid red; */
     width: 50%;
     margin: 0 auto;
 }
 .aromas{
     display: block;
-    border: solid red;
+    /* border: solid red; */
     width: 50%;
     margin: 0 auto;
 }
 .poza-difusores{
     display: block;
-    border: solid red;
+    /* border: solid red; */
     width: 50%;
     margin: 0 auto;
 }
@@ -352,7 +352,7 @@ a{
 }
 .tips{
     display: block;
-    border: solid red;
+    /* border: solid red; */
     width: 40%;
     margin: 0 auto;
 }
